@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+
+
+.nav-bar{
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;       
+    align-items: center;
+}
+
+.nav-bar a,
+.nav-bar a:visited {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+.compra{
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    background-color: rgb(32, 32, 32);
+    color: aliceblue;
+    align-items: center;
+    padding: 3%;
+}
+
+#home:hover{
+    transition: color 0.5s;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+#compre:hover{
+    transition: color 0.5s;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+#inf:hover{
+    transition: color 0.5s;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+#new:hover{
+    transition: color 0.5s;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+
+
+.granta{
+    background-color: blueviolet;
+    color: aliceblue;
+    width: 5vw;
+    height: 5vh;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.banner{
+    max-width: 455px;
+    max-height: 607px;
+}
+
+
+.site-footer {
+    background-color: black;
+    color: #b0b3b8;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin-bottom: 25px; 
+}
+
+.footer-nav li {
+    margin: 0 15px; 
+}
+
+.footer-nav a {
+    color: inherit; 
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+.footer-nav a:hover {
+    color: #ffffff;
+}
+
+.copyright-text {
+    cursor: default;
+    font-size: 0.9em;
+}
+.nos{
+    background-color: rgb(32, 32, 32);
+    height: 100%;
+    width: 100%;
+}
+.rafael{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.redes{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 5px;
+}
+
+.foto{
+    width: 300px;
+    object-fit: contain;
+}
+
+.insta{
+    width: 50px;
+}
+.in{
+    width: 50px;
+}
+.git{
+    width: 50px;
+}
