@@ -1,26 +1,32 @@
-*{
+* {
     margin: 0;
     text-decoration: none;
 }
 
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+}
 
-.nav-bar{
+
+.nav-bar {
     width: 100%;
     height: 5vh;
     background-color: black;
     display: flex;
     justify-content: space-around;
-    color: aliceblue;       
+    color: aliceblue;
     align-items: center;
 }
 
 .nav-bar a,
 .nav-bar a:visited {
-    color: inherit; 
-    text-decoration: none; 
+    color: inherit;
+    text-decoration: none;
 }
 
-.compra{
+.compra {
     display: flex;
     height: 100vh;
     justify-content: space-between;
@@ -30,25 +36,25 @@
     padding: 3%;
 }
 
-#home:hover{
+#home:hover {
     transition: color 0.5s;
     cursor: pointer;
     color: blueviolet;
 }
 
-#compre:hover{
+#compre:hover {
     transition: color 0.5s;
     cursor: pointer;
     color: blueviolet;
 }
 
-#inf:hover{
+#inf:hover {
     transition: color 0.5s;
     cursor: pointer;
     color: blueviolet;
 }
 
-#new:hover{
+#new:hover {
     transition: color 0.5s;
     cursor: pointer;
     color: blueviolet;
@@ -56,7 +62,7 @@
 
 
 
-.granta{
+.granta {
     background-color: blueviolet;
     color: aliceblue;
     width: 5vw;
@@ -66,7 +72,7 @@
     border-radius: 5px;
 }
 
-.banner{
+.banner {
     max-width: 455px;
     max-height: 607px;
 }
@@ -83,19 +89,20 @@
     list-style: none;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; 
-    margin-bottom: 25px; 
+    flex-wrap: wrap;
+    margin-bottom: 25px;
 }
 
 .footer-nav li {
-    margin: 0 15px; 
+    margin: 0 15px;
 }
 
 .footer-nav a {
-    color: inherit; 
+    color: inherit;
     text-decoration: none;
-    transition: color 0.3s ease; 
+    transition: color 0.3s ease;
 }
+
 .footer-nav a:hover {
     color: #ffffff;
 }
@@ -104,36 +111,64 @@
     cursor: default;
     font-size: 0.9em;
 }
-.nos{
+
+.nos {
+    margin: 5% 0 5% 0;
+    display: flex;
+    flex-direction: row;
     background-color: rgb(32, 32, 32);
     height: 100%;
     width: 100%;
 }
-.rafael{
+
+.cleverson {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 33%;
+    width: 50%;
+}
+
+.rafae {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 33%;
+    width: 50%;
+}
+
+.kauan {
+    overflow: hidden;
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 100%;
-    width: 100%;
-}
-.redes{
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    padding: 5px;
+    height: 33%;
+    width: 50%;
 }
 
-.foto{
-    width: 300px;
+.redes {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.foto {
+    height: 500px;
+    width: 400px;
     object-fit: contain;
 }
 
-.insta{
+.insta {
     width: 50px;
 }
-.in{
+
+.in {
     width: 50px;
 }
-.git{
+
+.git {
     width: 50px;
 }
