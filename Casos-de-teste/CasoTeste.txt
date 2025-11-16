@@ -1,7 +1,0 @@
-O aplicativo LOGIN tem como ideia facilitar o controle de acesso em eventos e vendas de ingresso num só fornecedor. A empresa interessada em nosso serviço deve entrar em contato conosco para negociação e definição dos usuários com cargos acima. Centralizamos a venda em nosso sites com ingressos que definem diferentes níveis de acesso - Cliente, funcionário, Segurança e Administrador. Enviamos o ingresso junto a um cordão para sustentar o crachá, permitindo a qualquer membro presente saiba qual nível de acesso o indivíduo se encontra. O controle do acesso é feito diretamente pelo administrador, registrando o qual área clientes, funcionários e seguranças terão acesso. Seguranças terão acesso a todos nomes e dados dos membros presentes e compradores de ingressos para controle de entrada. Funcionários, assim como clientes, terão acesso limitados a certas áreas.
-Nosso crachá funciona com um sistema de proximidade de leitor, cada um possui uma conexão de curta distância que fica registrada como chave, o leitor irá verificar o número e o nível de acesso provido pelo administrador, se o código retornar como verificado, o responsável ganha acesso ao local ou função. Qualquer erro de leitura ou falha de verificação deve ser contatado o administrador responsável e o suporte técnico da nossa empresa.
-Kauã - porra nenhuma
-
-  Cleverson - Front-End (🏳️‍🌈?!)
-
-  Rafael - Back-End(PCD)
