@@ -1,0 +1,40 @@
+.tl-compra{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    margin-bottom: 2%;
+}
+
+.formes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%
+}
+
+.camp{
+    padding: 0.2% 0.2% 0.2% 1%;
+    border-radius: 14px;
+    width: 50%;
+    font-size: large;
+    margin: 0 0 2% 0;
+    background-color: rgba(137, 43, 226, 0.795);
+    color: aliceblue;
+}
+
+#confirmar{
+    width: 25%;
+    padding: .6%;
+    border-radius: 14px;
+    color: aliceblue;
+    background-color: blueviolet;
+    font-size: medium;
+    cursor: pointer;
+}
+
+ 

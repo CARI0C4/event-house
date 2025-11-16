@@ -1,0 +1,60 @@
+.compra {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    background-color: rgb(32, 32, 32);
+    color: aliceblue;
+    align-items: center;
+    padding: 3%;
+    border-radius: 14px;
+}
+
+.granta-s{
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+}
+
+.granta {
+    margin-top: 5%;
+    background-color: blueviolet;
+    color: aliceblue;
+    width: 25%;
+    font-size: larger;
+    height: 100%;
+    cursor: pointer;
+    border: none;
+    border-radius: 14px;
+}
+
+.banner {
+    max-width: 455px;
+    max-height: 607px;
+}
+
+#treiler{
+    max-width: 100vw;
+}
+
+#treiler video{
+    width: 100%;
+}
+
+
+.patrocinadores{
+    max-width: 100%;
+    height: auto;
+    padding: 2%;
+    border: 3px solid blueviolet;
+    margin: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.patro{
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+}
