@@ -1,0 +1,42 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+--no-fonts
+-encoding
+'UTF-8'
+-protected
+--release
+24
+-sourcepath
+'C:/fatec/event-house/Eventos/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/fatec/event-house/Eventos/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Eventos 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'Eventos 1.0-SNAPSHOT API'
+com.mycompany.eventos
+C:\fatec\event-house\Eventos\src\main\java = 1764333752651
+C:\fatec\event-house\Eventos\target\reports\apidocs\allclasses-index.html = 1764337815366
+C:\fatec\event-house\Eventos\target\reports\apidocs\allpackages-index.html = 1764337815369
+C:\fatec\event-house\Eventos\target\reports\apidocs\element-list = 1764337815317
+C:\fatec\event-house\Eventos\target\reports\apidocs\help-doc.html = 1764337815398
+C:\fatec\event-house\Eventos\target\reports\apidocs\index-all.html = 1764337815388
+C:\fatec\event-house\Eventos\target\reports\apidocs\index.html = 1764337815393
+C:\fatec\event-house\Eventos\target\reports\apidocs\member-search-index.js = 1764337815375
+C:\fatec\event-house\Eventos\target\reports\apidocs\module-search-index.js = 1764337815370
+C:\fatec\event-house\Eventos\target\reports\apidocs\overview-tree.html = 1764337815348
+C:\fatec\event-house\Eventos\target\reports\apidocs\package-search-index.js = 1764337815372
+C:\fatec\event-house\Eventos\target\reports\apidocs\search.html = 1764337815392
+C:\fatec\event-house\Eventos\target\reports\apidocs\tag-search-index.js = 1764337815376
+C:\fatec\event-house\Eventos\target\reports\apidocs\type-search-index.js = 1764337815373

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar</title>
+    <link rel="stylesheet" href="scr/css/style.css">
+    <link rel="stylesheet" href="scr/css/compra.css">
+</head>
+
+<body>
+
+    <section class="nav-bar">
+        <a class="vad" id="home" href="index.html">Home</a>
+        <a class="vad" id="compre" href="compra.html">Compre agora</a>
+        <a class="vad" id="inf" href="info.html">Informação</a>
+        <a class="vad" id="new" href="novidade.html">Novidades</a>
+        <a class="vad" id="new" href="cadastro.html">Fale conosco</a>
+    </section>
+
+    <section class="tl-compra">
+    <form action="/caminho-do-servidor" method="POST" class="formes">
+        
+        <input class="camp" type="text" name="nome_completo" placeholder="Digite seu Nome completo" required>
+        <input class="camp" type="email" name="email" placeholder="Digite seu Email" required>
+        <input class="camp" type="tel" name="telefone" placeholder="Digite seu Telefone">
+        <input class="camp" type="text" name="cpf" placeholder="Digite seu CPF">
+        
+        <input class="camp" type="text" name="cep" placeholder="CEP" required>
+        <input class="camp" type="text" name="endereco" placeholder="Endereço" required>
+        <input class="camp" type="text" name="bairro" placeholder="Bairro" required>
+        <input class="camp" type="text" name="cidade" placeholder="Cidade" required>
+        <input class="camp" type="number" name="numero_casa" placeholder="Número da casa" required>
+        
+       
+        <button id="confirmar" type="submit" onclick=" alert('sua compra foi realizada')">Confirma</button>
+    </form>
+
+    </section>
+
+    <footer class="site-footer">
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <p class="copyright-text">&copy; 2025 Company, Inc</p>
+    </footer>
+</body>
+
+</html>
