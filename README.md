@@ -9,9 +9,8 @@ O sistema proporciona uma gestão centralizada e segura, garantindo eficiência,
 - **Registro de participantes:** Armazenamento seguro dos dados dos clientes em arquivo de texto.  
 - **Validação de presença:** Confirmação de acesso por nome ou código de ingresso.  
 - **Acesso restrito:** Perfis de administrador com permissões especiais.  
-- **Geração de chaves de acesso:** Criação de códigos aleatórios para liberar entradas específicas.  
-- **Relatórios estratégicos e operacionais:** Informações sobre presença, vendas e participantes.  
-
+- **Geração de chaves de acesso:** Criação de códigos aleatórios para liberar entradas específicas.
+- 
 ## Tecnologias Utilizadas
 - **Linguagens de Programação:** Java, HTML, CSS  
 - **IDE:** NetBeans 17  
